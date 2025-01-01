@@ -1,0 +1,131 @@
+:root {
+    --font-primary: NunitoSans_7pt_Condensed-Regular;
+    --font-primary-bold:NunitoSans_7pt_Condensed-Bold;
+    --font-secondary: PlaywriteAUSA-Regular;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    font-family: var(--font-primary);
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.6rem;
+}
+
+.header {
+
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__logo {
+    width: 10rem;
+}
+
+.nav__list {
+    display: flex;
+    gap: 1.8rem;
+    align-items: center;
+}
+
+.nav__item {
+
+}
+
+.nav__item__link {
+
+}
+
+.nav__account {
+    display: flex;
+    gap: 1rem;
+    border: 1px solid red;
+    padding: 1.5rem 1rem;
+    /* font-size: 1.4rem; */
+}
+
+.signup,
+.login {
+    font-size: 1.2rem;
+}
+
+.signup {
+    /* font-size: 1.2rem; */
+}
+
+.login {
+
+}
+
+.header__bottom {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 2rem;
+}
+
+.left__wrapper {
+
+}
+
+.left__wrapper__title {
+
+}
+
+span {
+    font-family: var(--font-secondary);
+}
+
+.left__wrapper__text {
+
+}
+
+.bottom__form {
+
+}
+
+.bottom__form__search {
+
+}
+
+.bottom__form__btn {
+
+}
+
+.right__wrapper {
+    display: flex;
+    justify-content: space-between;
+    /* gap: 2rem; */
+}
+
+.right__wrapper__one {
+
+}
+
+.right__wrapper__two {
+
+}
+
+.right__img {
+    width: 15rem;
+    /* height: 30rem; */
+}
