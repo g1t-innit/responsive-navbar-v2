@@ -131,7 +131,8 @@ a {
 }
 
 .left__wrapper {
-
+    display: flex;
+    flex-direction: column;
 }
 
 .left_wrapper__text {
@@ -169,11 +170,14 @@ span {
 
 .bottom__form__search {
     width: 15rem;
-    padding: 0.5rem;
-    border: none;
+    padding: 0.5rem 1.5rem;
+    border: 2px solid #a90003;
     outline: 0;
     border-bottom: 2px solid #a90003;
-    /* font-size: 1rem; */
+    font-size: 1rem;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    font-size: 1.2rem;
 }
 
 input {
@@ -184,8 +188,17 @@ input {
 .bottom__form__btn {
     width: 3.5rem;
     height: 3.5rem;
-    border: none;
     outline: none;
+    border: 2px solid #a90003;
+    border-left-width: 2px;
+    border-top-right-radius: 0.2rem;
+    border-bottom-right-radius: 0.2rem;                                    
+    border-left: none;
+    background-color: inherit;
+    /* border: none; */
+    /* border-left-style: solid; */
+    /* border-left-color: rgb(169, 0, 3); */
+    /* background-color: inherit; */
 }
 
 .btn__icon {
