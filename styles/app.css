@@ -69,7 +69,7 @@ a {
 
 .nav__title {
     font-family: var(--font-secondary);
-    font-size: 3rem;
+    font-size: var(--font-size-lg);
     position: absolute;
     top: 12px;
     left: 28px;
@@ -107,7 +107,7 @@ a {
 }
 
 .nav__item__link {
-    font-size: 2.5rem;
+    font-size: var(--font-size-md);
     color: var(--color-three);
     transition: all 200ms;
 }
@@ -134,7 +134,7 @@ a {
 }
 
 .signup {
-    font-size: 1.8rem;
+    font-size: var(--font-size-xs);
 }
 
 .signup:active {
@@ -158,13 +158,13 @@ a {
 }
 
 .left__wrapper__title {
-    font-size: 8.6rem;
+    font-size: var(--font-size-xl);
     margin-bottom: 5rem;
     line-height: 1;
 }
 
 .title__span__one {
-    font-size: 10rem;
+    font-size: var(--font-size-xxl);
 }
 
 .title__span_two {
@@ -173,7 +173,7 @@ a {
 }
 
 .left__wrapper__definition {
-    font-size: 3rem;
+    font-size: var(--font-size-lg);
 }
 
 .bottom__form {
@@ -190,7 +190,7 @@ a {
     border-bottom: 2px solid var(--color-one);
     border-top-left-radius: 10rem;
     border-bottom-left-radius: 10rem;
-    font-size: 3rem;
+    font-size: var(--font-size-lg);
 }
 
 input {
@@ -262,7 +262,7 @@ input {
     top: 51rem;
     right: 6.5rem;
     font-family: var(--font-primary);
-    font-size: 2rem;
+    font-size: var(--font-size-sm);
     background: linear-gradient(166deg, var(--color-one) 8%, var(--color-five) 45%, var(--color-six) 100%);
     color: var(--color-two);
     border-radius: 1rem;
