@@ -1,73 +1,87 @@
 @media only screen and (max-width: 1600px) {
     .container {
-    width: 1570px;
+        width: 1500px;
     }
-    }
-    
-    @media only screen and (max-width: 1400px) {
+}
+
+@media only screen and (max-width: 1400px) {
     .container {
     width: 1370px;
     }
-    }
     
-    @media only screen and (max-width: 1200px) {
+.logo__icon {
+       
+}
+
+.nav__title {
+        
+}
+
+.nav__list {
+        
+}
+
+.nav__item__link {
+        
+}
+
+.nav__account {
+        
+}
+
+.signup {
+        
+}
+
+.left_wrapper__text {
+        
+}
+
+.left__wrapper__title {
+        
+}
+
+.title__span__one {
+        
+}
+
+.left__wrapper__definition {
+        
+}
+
+.bottom__form__search {
+        
+}
+
+.bottom__form__btn {
+        
+}
+
+.btn__icon {
+        
+}
+}
+    
+@media only screen and (max-width: 1200px) {
     .container {
     width: 1140px;
     }
-    }
+}
     
-    @media only screen and (max-width: 992px) {
+@media only screen and (max-width: 992px) {
     .container {
     width: 960px;
     }
-    }
+}
     
-    @media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     .container {
     width: 720px;
     }
-    }
+}
     
-    @media only screen and (max-width: 576px) {
+@media only screen and (max-width: 576px) {
     .container {
     width: 540px;
     }
-    }
-    
-    Alternatively, you can use percentage units to make the container width more flexible:
-    
-    @media only screen and (max-width: 1600px) {
-    .container {
-    width: 98%;
-    }
-    }
-    
-    @media only screen and (max-width: 1400px) {
-    .container {
-    width: 95%;
-    }
-    }
-    
-    @media only screen and (max-width: 1200px) {
-    .container {
-    width: 90%;
-    }
-    }
-    
-    @media only screen and (max-width: 992px) {
-    .container {
-    width: 85%;
-    }
-    }
-    
-    @media only screen and (max-width: 768px) {
-    .container {
-    width: 80%;
-    }
-    }
-    
-    @media only screen and (max-width: 576px) {
-    .container {
-    width: 75%;
-    }
-    }
+}
