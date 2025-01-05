@@ -256,7 +256,7 @@ input {
 }
 
 .right__wrapper__list {
-    position: fixed;
+    position: absolute;
     width: 30rem;
     padding: 1rem 1.5rem;
     top: 51rem;
