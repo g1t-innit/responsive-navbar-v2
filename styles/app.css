@@ -236,7 +236,7 @@ input {
 
 .right__img__one {
     position: absolute;
-    top: 150px;
+    top: 15rem;
     transition: all 1000ms ease-in;
 }
 
@@ -246,7 +246,7 @@ input {
 
 .right__img__two {
     position: absolute;
-    left: 380px;
+    left: 38rem;
     transition: all 1000ms ease-in;
 }
 
