@@ -288,7 +288,7 @@ input {
     /* position: absolute;f */
     width: 36rem;
     padding: 1rem 1.5rem;
-    transform: translate(25rem, -20rem);
+    transform: translate(20rem, -20rem);
     /* top: 51rem; */
     /* right: 6.5rem; */
     font-family: var(--font-primary);

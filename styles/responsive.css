@@ -1,4 +1,4 @@
-/* @media only screen and (max-width: 1600px) {
+@media only screen and (max-width: 1600px) {
     .container {
         width: 1500px;
     }
@@ -6,8 +6,8 @@
 
 @media only screen and (max-width: 1440px) {
     :root {
-        --font-size-xl: 7rem; 70px
-        --font-size-xxl: 8rem;  80px
+        --font-size-xl: 7rem; /* 70px */
+        --font-size-xxl: 8rem; /* 80px */
     }
     
     .container {
@@ -38,20 +38,10 @@
         width: 4rem;
     }
 
-    .right__img {
-        width: 30rem;
-    }
-
-    .right__img__two {
-        left: 32rem;
-    }
-
     .right__wrapper__list {
-        width: 28rem;
-        padding: 0.8rem 1.2rem;
-        top: 45rem;
-        right: 11rem;
-        font-size: var(--font-size-xs);
+        width: 30rem;
+        padding: 1.5rem;
+        font-size: var(--font-size-sm);
     }
     
 
@@ -59,17 +49,13 @@
     
 @media only screen and (max-width: 1200px) {
     :root {
-        --font-size-xs: 1.6rem; 16px
-        --font-size-xl: 6rem; 60px
-        --font-size-xxl: 7rem;  70px
+        --font-size-xs: 1.6rem; /* 16px */
+        --font-size-xl: 6rem; /* 60px */
+        --font-size-xxl: 7rem;  /* 70px */
     }
     
     .container {
     width: 1140px;
-    }
-
-    .right__img {
-        width: 25rem;
     }
 
     .right__img__two {
@@ -77,11 +63,11 @@
     }
 
     .right__wrapper__list {
-        width: 24rem;
+        width: 30rem;
         padding: 0.6rem 1rem;
-        top: 40rem;
-        font-size: var(--font-size-xs);
-        right: 8.6rem;
+        /* top: 40rem; */
+        font-size: var(--font-size-sm);
+        /* right: 8.6rem; */
     }
 
 
@@ -103,4 +89,4 @@
     .container {
     width: 540px;
     }
-} */
+}
