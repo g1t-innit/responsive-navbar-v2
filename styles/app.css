@@ -143,7 +143,7 @@ a {
 .header__bottom {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin-top: 5rem;
+    margin-top: 10rem;
 }
 
 .left__wrapper {
