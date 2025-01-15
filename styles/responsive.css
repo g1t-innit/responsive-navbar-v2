@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1600px) {
+/* @media only screen and (max-width: 1600px) {
     .container {
         width: 1500px;
     }
@@ -6,8 +6,8 @@
 
 @media only screen and (max-width: 1440px) {
     :root {
-        --font-size-xl: 7rem; /* 70px */
-        --font-size-xxl: 8rem;  /* 80px */
+        --font-size-xl: 7rem; 70px
+        --font-size-xxl: 8rem;  80px
     }
     
     .container {
@@ -59,9 +59,9 @@
     
 @media only screen and (max-width: 1200px) {
     :root {
-        --font-size-xs: 1.6rem; /* 16px */
-        --font-size-xl: 6rem; /* 60px */
-        --font-size-xxl: 7rem;  /* 70px */
+        --font-size-xs: 1.6rem; 16px
+        --font-size-xl: 6rem; 60px
+        --font-size-xxl: 7rem;  70px
     }
     
     .container {
@@ -103,4 +103,4 @@
     .container {
     width: 540px;
     }
-}
+} */
