@@ -5,11 +5,6 @@
 }
 
 @media only screen and (max-width: 1440px) {
-    :root {
-        /* --font-size-xl: 7rem; 70px
-        --font-size-xxl: 8rem; 80px */
-    }
-    
     .container {
     width: 1370px;
     }
@@ -106,5 +101,40 @@
 @media only screen and (max-width: 576px) {
     .container {
     width: 540px;
+    }
+
+    :root {
+        --font-size-xl: 6rem; /* 70px */
+        --font-size-xxl: 7rem; /* 80px */
+    }
+
+    .nav__list {
+        display: none;
+    }
+
+    .nav__account {
+        display: none;
+    }
+
+    .left__wrapper__definition {
+        width: 31rem;
+        text-align: justify;
+    }
+
+    .right__img__wrapper {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .right__img__wrapper img:first-child {
+        transform: translateX(2.5rem);
+    }
+
+    .right__wrapper__list {
+        transform: translate(0, -5rem);
+    }
+
+    .bottom__form__search {
+        width: 26rem;
     }
 }
