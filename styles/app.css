@@ -87,6 +87,45 @@ a {
     bottom: 0;
 }
 
+.navMobile__btn {
+    display: none;
+    width: 5rem;
+    height: 5rem;
+    background: linear-gradient(166deg, rgba(169,0,3,1) 8%, rgba(193,0,3,1) 45%, rgba(200,29,37,1) 100%);
+    border-radius: 1rem;
+}
+
+.navMobile__btn span {
+    /* display: none; */
+    width: 3.5rem;
+    height: 0.3rem;
+    border-radius: 2rem;
+    background-color: var(--color-two);
+    position: relative;
+    transition: all 150ms ease-in-out;
+}
+
+.navMobile__btn span::before,
+.navMobile__btn span::after {
+    content: '';
+    position: absolute;
+    width: 3.5rem;
+    height: 0.3rem;
+    border-radius: 0.1rem;
+    background-color: var(--color-two);
+    transition: all 150ms ease-in-out;
+}
+
+.navMobile__btn span::before {
+    top: -0.8rem;
+}
+
+
+.navMobile__btn span::after {
+    top: 0.8rem;
+}
+
+
 .nav {
     display: flex;
     align-items: center;
