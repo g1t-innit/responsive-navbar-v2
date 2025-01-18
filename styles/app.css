@@ -33,7 +33,6 @@ html {
 
 body {
     font-family: var(--font-primary);
-    /* font-size: 10px; */
 }
 
 ul {
@@ -43,11 +42,6 @@ ul {
 a {
     text-decoration: none;
     color: var(--clolor-two);
-    /* font-size: 1.2rem; */
-}
-
-.header {
-    /* margin-top: 1.5rem; */
 }
 
 .container {
@@ -60,20 +54,20 @@ a {
     flex-direction: column;
     justify-content: space-between;
     gap: 2rem;
-    position: fixed; /* Use fixed for better mobile experience */
+    position: fixed;
     top: 0;
-    left: -20rem; /* Initially hidden off-screen */
+    left: -20rem;
     bottom: 0;
     height: 100%;
     width: 20rem;
     padding: 1.5rem;
     background-color: #a90003;
     z-index: 20;
-    transition: transform 0.3s ease-in-out; /* Add a smooth transition */
+    transition: transform 0.3s ease-in-out;
 }
 
 .navMobile--open {
-    transform: translateX(20rem); /* Slide it in from the left */
+    transform: translateX(20rem);
 }
 
 .navMobile ul {
