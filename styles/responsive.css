@@ -114,6 +114,10 @@
         --font-size-xxl: 7rem; /* 80px */
     }
 
+    .navMobile {
+        display: flex;
+    }
+
     .navMobile__btn {
         display: flex;
         justify-content: center;

@@ -56,20 +56,24 @@ a {
 }
 
 .navMobile {
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: space-between;
     gap: 2rem;
-    position: absolute;
+    position: fixed; /* Use fixed for better mobile experience */
     top: 0;
-    left: -20rem;
+    left: -20rem; /* Initially hidden off-screen */
     bottom: 0;
     height: 100%;
     width: 20rem;
     padding: 1.5rem;
     background-color: #a90003;
     z-index: 20;
+    transition: transform 0.3s ease-in-out; /* Add a smooth transition */
+}
 
+.navMobile--open {
+    transform: translateX(20rem); /* Slide it in from the left */
 }
 
 .navMobile ul {
@@ -88,15 +92,18 @@ a {
 }
 
 .navMobile__btn {
-    display: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     width: 5rem;
     height: 5rem;
     background: linear-gradient(166deg, rgba(169,0,3,1) 8%, rgba(193,0,3,1) 45%, rgba(200,29,37,1) 100%);
     border-radius: 1rem;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
 }
 
 .navMobile__btn span {
-    /* display: none; */
     width: 3.5rem;
     height: 0.3rem;
     border-radius: 2rem;
@@ -120,9 +127,21 @@ a {
     top: -0.8rem;
 }
 
-
 .navMobile__btn span::after {
     top: 0.8rem;
+}
+
+.navMobile.navMobile--open .navMobile__btn span { /* Key change here */
+    background-color: transparent;
+}
+
+/* Corrected - Simplified selectors for open state */
+.navMobile__btn.navMobile__btn--open .navMobile__btn-line::before {
+    transform: translateY(0.8rem) rotate(45deg);
+}
+
+.navMobile__btn.navMobile__btn--open .navMobile__btn-line::after {
+    transform: translateY(-0.8rem) rotate(-45deg);
 }
 
 
