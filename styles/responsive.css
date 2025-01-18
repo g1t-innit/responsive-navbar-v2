@@ -43,12 +43,6 @@
 }
     
 @media only screen and (max-width: 1024px) {
-    :root {
-        /* --font-size-xs: 1.6rem; 16px
-        --font-size-xl: 6rem; 60px
-        --font-size-xxl: 7rem;  70px */
-    }
-    
     .container {
     width: 996px;
     }
@@ -60,9 +54,7 @@
     .right__wrapper__list {
         width: 30rem;
         padding: 0.6rem 1rem;
-        /* top: 40rem; */
         font-size: var(--font-size-sm);
-        /* right: 8.6rem; */
     }
 
 
@@ -74,8 +66,6 @@
     }
 
     .header__bottom {
-        /* display: grid;
-        grid-template-rows: repeat(2, 1fr); */
         grid-template-columns: 1fr;
     }
 
@@ -122,7 +112,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        /* flex-direction: column; */
     }
 
     .nav__list {

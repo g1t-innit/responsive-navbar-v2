@@ -131,11 +131,10 @@ a {
     top: 0.8rem;
 }
 
-.navMobile.navMobile--open .navMobile__btn span { /* Key change here */
+.navMobile.navMobile--open .navMobile__btn span {
     background-color: transparent;
 }
 
-/* Corrected - Simplified selectors for open state */
 .navMobile__btn.navMobile__btn--open .navMobile__btn-line::before {
     transform: translateY(0.8rem) rotate(45deg);
 }
@@ -217,8 +216,6 @@ a {
 
 .nav__account:hover {
     scale: 103%;
-    /* background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 0%); */
-    /* color: var(--color-three); */
 }
 
 .signup {
@@ -312,14 +309,12 @@ input {
 }
 
 .right__img__wrapper {
-    /* position: relative; */
     display: flex;
     gap: 2.5rem;
 }
 
 .right__img__wrapper img {
     width: 35rem;
-    /* display: flex; */
     justify-content: space-between;
     border-radius: 1rem;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;;
@@ -331,10 +326,6 @@ input {
    transition: all 1000ms ease-in;
 }
 
-/* .right__img__wrapper img:first-child:hover {
-    transform: translateY(0);
-} */
-
 .right__img__wrapper img:last-child {
     transform: translateY(2.5rem);
 }
@@ -342,19 +333,16 @@ input {
 .right__img__wrapper img:first-child:hover,
 .right__img__wrapper img:last-child:hover {
     transform: translateY(0);
-    /* transform: translateX(0.5rem); */
 }
 
 .right__img {
     width: 35rem;
-    /* display: flex; */
     justify-content: space-between;
     border-radius: 1rem;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;;
 }
 
 .right__img__one {
-    /* position: absolute; */
     top: 15rem;
     transition: all 1000ms ease-in;
 }
@@ -364,7 +352,6 @@ input {
 }
 
 .right__img__two {
-    /* position: absolute; */
     left: 38rem;
     transition: all 1000ms ease-in;
 }
@@ -374,12 +361,9 @@ input {
 }
 
 .right__wrapper__list {
-    /* position: absolute;f */
     width: 36rem;
     padding: 1rem 1.5rem;
     transform: translate(20rem, -20rem);
-    /* top: 51rem; */
-    /* right: 6.5rem; */
     font-family: var(--font-primary);
     font-size: var(--font-size-md);
     background: linear-gradient(166deg, var(--color-one) 8%, var(--color-five) 45%, var(--color-six) 100%);
